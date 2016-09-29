@@ -34,17 +34,21 @@ header .intro-text{text-shadow: 0 1px 1px rgba(0, 0, 0, 0.11);}
 .portfolio-modal .modal-content .plumber{background: url(../img/work/plumber_master.jpg) no-repeat; background-size: cover; }
 .portfolio-modal .modal-content .ride{background: url(../img/work/ride_master.jpg)0 -99px no-repeat;background-size: cover; }
 .portfolio-modal .modal-content .ida{background: url(../img/work/ida_master.png) 0 -146px no-repeat;background-size: cover; }
+.portfolio-modal .modal-content .open-connect{background: url(../img/work/connect_master.png) 0 -146px no-repeat;background-size: cover; }
 .portfolio-modal .modal-content .jumbotron.ida::after{background: none;}
 .portfolio-modal .modal-content .jumbotron.csi::after,
 .portfolio-modal .modal-content .jumbotron.plumber::after,
 .portfolio-modal .modal-content .jumbotron.ride::after,
+.portfolio-modal .modal-content .jumbotron.open-connect::after,
 .portfolio-modal .modal-content .jumbotron.studer::after{background: linear-gradient(to top, rgba(0, 0, 0, 0.51) 0%,rgba(255,255,255,0) 100%);}
 .portfolio-modal .modal-content .studer h1,
 .portfolio-modal .modal-content .ride h1,
+.portfolio-modal .modal-content .open-connect h1,
 .portfolio-modal .modal-content .plumber h1{color: #fff;}
 .portfolio-modal .modal-content .csi h1{color: #ffd75b;}
 .portfolio-modal .modal-content .csi p.item-intro,
 .portfolio-modal .modal-content .plumber p.item-intro,
+.portfolio-modal .modal-content .open-connect p.item-intro,
 .portfolio-modal .modal-content .ride p.item-intro,
 .portfolio-modal .modal-content .studer p.item-intro{color:rgba(255, 255, 255, 0.7);}
 .portfolio-modal .modal-content .jumbotron .container{display: flex;color:#222;height: 100%;align-items: center;flex-direction: column;justify-content: center; position: relative; z-index: 5; }
