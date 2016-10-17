@@ -71,16 +71,24 @@ header .intro-text{text-shadow: 0 1px 1px rgba(0, 0, 0, 0.11);}
     font-style: italic; font-size: 12px; color: #666;}
 .no-margin{margin: 0 !important;}
 .team-member img {border: 6px solid #fff;max-width: 180px; filter: grayscale(100%);}
-
-#team .col-sm-3:hover{background:#fff;}
+#team .col-sm-3{border: 1px solid #fff;}
+#team .col-sm-3:hover{border: 1px solid #ccc;}
 #team .col-sm-3:hover img{filter: grayscale(0%); }
 .team-member {text-align: center;margin: 30px 0;}
-.email{font-size: 70px;margin-bottom: 250px;text-align: center; cursor: pointer;}
+.email{font-size: 70px; margin-bottom: 250px;text-align: center; cursor: pointer;}
 .social-buttons li a i{cursor: pointer;}
+
+#tools ul.list-unstyled{display: flex;flex-wrap: wrap;align-items: center;justify-content: center; border-radius: 8px; position: relative;}
+
+#tools ul.list-unstyled li{width: 180px;padding: 10px;}
+#tools ul.list-unstyled img{max-width: 100%;}
+#tools ul.list-unstyled li span{display: none;}
+#services ul{text-align: left;}
+#services span i+img{position: absolute;width: 65px;height: 49px;top: 50%;left: 50%;margin-left: -34px;margin-top: -20px;}
+.margin-top{margin-top:40px;}
 *{transition: all .4s linear;-o-transition: all .4s linear;-moz-transition: all .4s linear;-webkit-transition: all .4s linear;}
 
 /* Portrait and Landscape */
 @media only screen and (max-device-width: 480px) {
 .email{font-size: 30px;}
-.navbar-custom.affix .navbar-brand {margin-left: 15px;
-}
+.navbar-custom.affix .navbar-brand {margin-left: 15px;}
