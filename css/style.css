@@ -28,13 +28,13 @@ header .intro-text{text-shadow: 0 1px 1px rgba(0, 0, 0, 0.11);}
 .portfolio-modal .modal-content{padding:0;}
 .portfolio-modal .modal-content .jumbotron{ height: 550px; position: relative; }
 .portfolio-modal .modal-content .jumbotron::after{content: ""; display: block; position: absolute; width: 100%; height: 100%; top: 0; left:0; background: linear-gradient(to top, rgba(255, 255, 255, 0.51) 0%,rgba(255,255,255,0) 100%); }
-.portfolio-modal .modal-content .itoi{background: url(../img/work/itoi_master.png) no-repeat; background-size: cover; }
-.portfolio-modal .modal-content .csi{background: url(../img/work/csi_master.jpg) no-repeat; background-size: cover; }
-.portfolio-modal .modal-content .studer{background: url(../img/work/studer_master.jpg) no-repeat; background-size: cover; }
-.portfolio-modal .modal-content .plumber{background: url(../img/work/plumber_master.jpg) no-repeat; background-size: cover; }
-.portfolio-modal .modal-content .ride{background: url(../img/work/ride_master.jpg)0 -99px no-repeat;background-size: cover; }
-.portfolio-modal .modal-content .ida{background: url(../img/work/ida_master.png) 0 -146px no-repeat;background-size: cover; }
-.portfolio-modal .modal-content .cms{background: url(../img/work/cms_master.jpg) 0 -146px no-repeat;background-size: cover; }
+.portfolio-modal .modal-content .itoi{background: url(../img/work/itoi_master.png) no-repeat; background-size: cover; -webkit-background-size: inherit}
+.portfolio-modal .modal-content .csi{background: url(../img/work/csi_master.jpg) no-repeat; background-size: cover; -webkit-background-size: inherit}
+.portfolio-modal .modal-content .studer{background: url(../img/work/studer_master.jpg) no-repeat; background-size: cover;   -webkit-background-size: inherit}
+.portfolio-modal .modal-content .plumber{background: url(../img/work/plumber_master.jpg) no-repeat; background-size: cover; -webkit-background-size: inherit }
+.portfolio-modal .modal-content .ride{background: url(../img/work/ride_master.jpg)0 -99px no-repeat;background-size: cover; -webkit-background-size: inherit}
+.portfolio-modal .modal-content .ida{background: url(../img/work/ida_master.png) 0 -146px no-repeat;background-size: cover; -webkit-background-size: inherit}
+.portfolio-modal .modal-content .cms{background: url(../img/work/cms_master.jpg) 0 -146px no-repeat;background-size: cover; -webkit-background-size: inherit }
 .portfolio-modal .modal-content .open-connect{background: url(../img/work/connect_master.png) 0 -146px no-repeat;background-size: cover; }
 .portfolio-modal .modal-content .jumbotron.ida::after{background: none;}
 .portfolio-modal .modal-content .jumbotron.csi::after,
