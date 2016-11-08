@@ -35,7 +35,7 @@ header .intro-text{text-shadow: 0 1px 1px rgba(0, 0, 0, 0.11);}
 .portfolio-modal .modal-content .ride{background: url(../img/work/ride_master.jpg)0 -99px no-repeat;background-size: cover; -webkit-background-size: inherit;}
 .portfolio-modal .modal-content .ida{background: url(../img/work/ida_master.png) 0 -146px no-repeat;background-size: cover; -webkit-background-size: inherit;}
 .portfolio-modal .modal-content .cms{background: url(../img/work/cms_master.jpg) 0 -146px no-repeat;background-size: cover; -webkit-background-size: inherit; }
-.portfolio-modal .modal-content .open-connect{background: url(../img/work/connect_master.png) 0 -146px no-repeat;background-size: cover; }
+.portfolio-modal .modal-content .open-connect{background: url(../img/work/connect_master.png) 0 -146px no-repeat;background-size: cover; -webkit-background-size: inherit;}
 .portfolio-modal .modal-content .jumbotron.ida::after{background: none;}
 .portfolio-modal .modal-content .jumbotron.csi::after,
 .portfolio-modal .modal-content .jumbotron.cms::after,
